@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Doctor Consultation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link href="css/video.popup.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet" />
+<link href="css/theme.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<!-- top_header -->
+<section class="top_header">
+  <div class="container">
+    <div class="row top_header_inner">
+      <div class="col-md-4 col-sm-12 top_head_box">
+        <div class="top_head_left">
+          <ul>
+            <li class="li_login"><a href="admin-login.html"><span><img src="images/user_login_icon.png" alt="" /></span> Login</a></li>
+            <li class="li_signup"><a href="">Sign Up <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12 top_head_box top_head_right_main">
+        <div class="top_head_right">
+          <ul>
+            <li><a href="tel:1234567890"><span><i class="fa fa-phone" aria-hidden="true"></i></span> (123)456-7890</a></li>
+            <li><a href="mailto:info@example.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> info@example.com</a></li>
+            <li><a href=""><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Find Us</a></li>
+            <li class="li_social"> <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- nav_sec -->
+<section class="nav_sec" id="sticky-wrap">
+  <div class="container">
+    <div class="row nav_inner"> 
+      <!-- mobile -->
+      <nav class="navbar navbar-expand-lg navbar-dark mobile_nav_sec"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu</span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Doctor List</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- mobile  End-->
+      <div class="col-md-4 col-sm-4 logo_box_main">
+        <div class="logo_box"> <a href="index.html"><img src="images/logo.png" alt="" /></a> </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 nav_right_box_main">
+        <div class="nav_right_box">
+          <ul class="list_nav_right">
+            <li class="get_app"><a href="">Get Our App</a></li>
+            <li><a href=""><img src="images/android_icon.png" alt="" /></a></li>
+            <li><a href=""><img src="images/appstore_icon.png" alt="" /></a></li>
+            <li class="li_humbargar_drop_menu">
+              <div class="dropdown li_humbargar_drop">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"> <span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu </button>
+                <div class="dropdown-menu">
+                  <ul class="list_side_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Doctors</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- search_doctor_page -->
+	<section class="search_doctor_page menu_border_top_only">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-12 search_doctor_left">
+					<div class="left_serach_bar">
+						<div class="search_blue">
+							<div class="doc_search_head">
+								<div class="search_comman_lr_padd">
+									<h3>Search <strong>Doctor</strong></h3>
+								</div>
+								
+							</div>
+							<div class="filter_by">
+								<p>Filter by:</p>
+							</div>
+						</div>
+						<!-- specialites_filrer -->
+						<div class="specialities_filrer_box">
+							<div class="search_comman_lr_padd">
+								<div class="sp_heading_comman">
+									<h4>Specialities:</h4>
+								</div>
+							<div class="special_vidget">
+								<ul class="list_custom_chk">
+									<li>
+										<label class="custom_checkbox">General Medicine
+										  <input type="checkbox" checked="checked">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Cardiology
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Diabetes
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Diabetes
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Gastroenterology
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+									<li>
+										<label class="custom_checkbox">Item 
+										  <input type="checkbox">
+										  <span class="checkmark"></span>
+										</label>
+									</li>
+								</ul>
+								
+
+
+
+								
+								
+							</div>
+						</div>
+						</div>
+						
+						<!-- price_slider -->
+						<div class="price_slider">
+							<div class="search_comman_lr_padd">
+								<div class="sp_heading_comman">
+									<h4 style="color: #fff;">Consultation Fee</h4>	
+								</div>
+							<div class="p_slider_box">
+								pppppppppp
+								
+
+
+
+								
+								
+							</div>
+						</div>
+						</div>
+						
+						
+					 
+					</div>
+				</div>
+				<!-- search_doctor_right -->
+				<div class="col-lg-9 col-md-8 col-sm-12 search_doctor_right">
+					<div class="right_serach_bar">
+						<div class="find_doctor_area">
+							<h3>Find Your Physician..</h3>
+							<form class="find_physician_form">
+								<div class="row">
+									<div class="col-sm-12 relevance_sort">
+										<div class="form-group">
+											<label>Sort by:</label>
+											<select class="rele_select">
+												<option>Relevance</option>
+												<option>Name</option>
+												<option>Location</option>
+												<option>111</option>
+											</select>
+										</div>
+									</div>
+									
+								</div>
+								<div class="row">
+									<div class="col-lg-10 col-md-10">
+										<div class="find_simple">
+											<div class="row">
+												<div class="col-md-6 s_search1 lr_no_padd">
+													<div class="form-group">
+														<input type="text" placeholder="Search Doctor, Clinic, Speciality.." class="form-control txt_simple_search" />
+													</div>
+												</div>
+												<div class="col-md-4 s_search2 lr_no_padd">
+													<div class="form-group">
+														<select class="form-control txt_simple_search">
+															<option>Relevance</option>
+															<option>Name</option>
+															<option>Location</option>
+															<option>111</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-2 s_search3 lr_no_padd">
+													<div class="form-group">
+														<button type="button" class="btn_find_doc">Find</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-2 find_advance">
+										<a href=""><img src="images/advance_search_icon.png" alt="" /></a>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- footer_sec -->
+<section class="footer" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 footer_box">
+        <div class="fbox_head"> <img src="images/logo.png" alt="" /> </div>
+        <ul class="list_contact_details">
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_home_icon.png" alt=""></div>
+              <p>YC CoWorking Space, 3RD Floor,<br>
+                Plot No.94, Dwarka Sector-13, Delhi - 110078.</p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_mail_icon.png" alt=""></div>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_headfonel_icon.png" alt=""></div>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 footer_box f_quick_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Quick Links</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav" id="footer_navigation">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Mission</a></li>
+            <li><a href="">Bookings & Appointments</a></li>
+            <li><a href="">Specialities</a></li>
+            <li><a href="">Doctor Listings</a></li>
+            <li><a href="">Join Us</a></li>
+            <li><a href="">Medicine Refills</a></li>
+            <li><a href="">Flight Tickets</a></li>
+            <li><a href="">Pricing Plans</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 footer_box f_departments_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Specialities & Departments</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav">
+            <li><a href="">Cardiology</a></li>
+            <li><a href="">Oral Health</a></li>
+            <li><a href="">Diabetes</a></li>
+            <li><a href="">Orthopedics</a></li>
+            <li><a href="">Plastic Surgery</a></li>
+            <li><a href="">Osteology</a></li>
+            <li><a href="">Gastroenterology</a></li>
+            <li><a href="">Otology</a></li>
+            <li><a href="">Gynecology</a></li>
+            <li><a href="">Pediatrics</a></li>
+            <li><a href="">Hepatology</a></li>
+            <li><a href="">Psychiatry</a></li>
+            <li><a href="">Neurology</a></li>
+            <li><a href="">Pulmonology</a></li>
+            <li><a href="">Obstetrics</a></li>
+            <li><a href="">Radiology</a></li>
+            <li><a href="">Ophthalmology</a></li>
+            <li><a href="">Rhinology</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- copyright_sec -->
+<section class="copyright_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6">
+        <div class="footer_cpy_left">
+          <p>Copyright 2019, All Right Reserved. WIS.</p>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <div class="footer_cpy_right">
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Use</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="admin-login.html">Login</a></li>
+            <li class="ft_signup"><a href="">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- scrollup_sec --> 
+<a href="javascript:void(0)" id="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+<!-- jQuery Area --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/jquery.viewbox.js"></script> 
+<script src="js/video.popup.js"></script> 
+<script src="js/wow.js"></script> 
+<script src="js/datepicker.js"></script> 
+<script src="js/theme.js"></script> 
+<script>
+	$(".how_use_left img").mousemove(function(event){
+	  var mousex = event.pageX - $(this).offset().left;
+	  var mousey = event.pageY - $(this).offset().top;
+	  var imgx = (mousex - 500) / 60;
+	  var imgy = (mousey - 200) / 40;
+	  $(this).css("transform", "translate(" + imgx + "px," + imgy + "px)");
+	});
+	$(".how_use_left img").mouseout(function(){
+	  $(this).css("transform", "translate(7px,6px)");
+	});
+	</script>
+</body>
+</html>

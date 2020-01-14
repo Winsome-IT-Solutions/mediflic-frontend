@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Doctor Consultation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/animate.css" rel="stylesheet">
+<!--<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link href="css/video.popup.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet" />-->
+<link href="css/theme.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+	<section class="admin_login_page">
+		<div class="container">
+		<div class="admin_login_inner">
+			<div class="admin_login_area">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="al_top">
+							<h1>MEDIFLIC</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+					<div class="al_form">
+					<form class="admin_lgn_form placeholder_white">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="USERNAME"/>
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-group">
+									<div class="password_lg">
+										<input type="password" id="password-field" class="form-control" placeholder="PASSWORD"/>
+										<button type="button" class="pass_eye_btn"><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span></button>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row ad_bottom">
+							<div class="col-md-6 ad_bottom_left">
+								<a href="">FORGOT PASSWORD ?</a>
+							</div>
+							<div class="col-md-6 ad_bottom_right">
+								<button type="submit" class="adl_btn">ENTER <span><img src="images/right_blue_icon.png" alt="" /></span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<!-- jQuery Area --> 
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+	
+<script>
+	$(".toggle-password").click(function() {
+
+  $(this).toggleClass("fa-eye fa-eye-slash");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});
+</script>
+</body>
+</html>

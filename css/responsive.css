@@ -1,0 +1,857 @@
+@media (min-width: 992px){
+#sticky-wrap.stickyhead {
+	position: fixed;
+	top: 0;
+	right:0;
+	left:0;
+	/*background: #000;*/
+	box-shadow: 0 0 10px rgb(236, 223, 223);
+	z-index: 99;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:991px) {
+	
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+/*====== Comman ====== */
+
+/*========= top_header ========*/
+	.top_head_left
+	{
+		width: 100%;
+	}
+	.top_head_left ul
+	{
+		text-align: center;
+		margin-bottom: 6px;
+	}
+	.top_head_right ul
+	{
+		text-align: center;
+	}
+/*=== nav ====*/
+	.nav_sec
+	{
+		position: relative;
+		top: 0;
+		padding: 0px 0px 5px 0;
+	}
+	.mobile_menu_box
+	{
+		text-align: right;
+	}
+	.mobile_nav_sec
+	{
+		display: block;
+	}
+	.logo_box_main, .li_humbargar_drop_menu
+	{
+		display: none !important;
+	}
+	.nav_right_box_main {
+    justify-content: center;
+	}
+	.mobile_nav_sec .navbar-brand img
+	{
+		width: 180px;
+	}
+	
+	.nav_right_box {
+    	margin-top: 6px;
+	}
+	
+	/*===== Banner ====*/
+	
+	
+	.banner_overlay
+	{
+		position: relative;
+		    left: 0;
+    text-align: left;
+    top: 0;
+    background: #565858;
+    padding: 20px 30px;
+	}
+	.banner_txt_box h1
+	{
+		font-size: 22px;
+		    margin: 0 0 20px 0;
+	}
+	.banner_txt_box h3
+	{
+		font-size: 20px;
+	}
+	#main_banner .carousel-indicators
+	{
+		bottom: -10px;
+	}
+/*=========== doc_location_sec =======*/
+	.doc_location_sec {
+    margin-top: 24px;
+	}
+	.doc_loc3
+	{
+		padding-left: 0;
+		padding: 40px 0;
+	}
+	.doc_loc3 h3
+	{
+		transform: none;
+		text-align: left;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.detct_loc .btn_detect
+	{
+		right: 0;
+	}
+/*====== why_choose_sec ====*/
+	.why_choose_left
+	{
+		padding: 30px 0;
+		border-right: none;
+	}
+	.why_choose_left h2
+	{
+		font-size: 31px;
+	}
+	.choose_box_r
+	{
+		border: 1px solid #4141e4;
+    	padding: 15px;
+	}
+	.ch_top .wc_img {
+		left: 15px;
+		top: 15px;
+	}
+	.ch_top .wc_img img
+	{
+		max-width: 110px;
+	}
+	.ch_top
+	{
+		padding-left: 120px;
+	}
+	/*==== how_use_sec ====*/
+	.how_use_right
+	{
+		margin-top: 20px;
+	}
+	.list_count li
+	{
+		
+	}
+	.count_box h3
+	{
+		font-size: 45px;
+	}
+	.count_box h4
+	{
+		font-size: 25px;
+	}
+	.how_use_right h3
+	{
+		font-size: 27px;
+	}
+	.list_application_step
+	{
+		padding: 0;
+	}
+	.how_use_left {
+    padding: 0 15px;
+	}
+	/*====== panel_expert_sec =====*/
+	.exp_panel_overlay
+	{
+		padding-right: 0;
+	}
+	.panel_exp_left {
+    padding: 40px 40px 40px 20px;
+	}
+	.panel_exp_left h2
+	{
+		font-size: 34px;
+	}
+	.doc_name_box:before
+	{
+		display: none;
+	}
+	.doc_name_box
+	{
+		padding: 15px 15px;
+    	max-width: 100%;
+	}
+	.doc_name_box h3
+	{
+		font-size: 20px;
+	}
+	.doc_name_box h4
+	{
+		font-size: 18px;
+	}
+	/*====== join_team_sec ======*/
+	.join_team_left
+	{
+		padding-right: 0;
+	}
+	.join_team_left h2
+	{
+		font-size: 22px;
+	}
+	.join_team_left, .join_team_right {
+    padding: 20px 15px;
+	}
+	.join_team_left .join_here_btn
+	{
+		position: relative;
+		right: auto;
+		top: 20px;
+	}
+	/*===== who_we_are_sec ====*/
+	.who_we_are_sec
+	{
+		padding: 40px 0px;
+	}
+	.who_we_left h2
+	{
+		font-size: 40px;
+	}
+	.who_we_right {
+    	margin-top: 10px;
+	}
+	.circle-ripple
+	{
+		height: 110px;
+    	width: 110px;
+	}
+/*=========== our_speciality_sec ==============*/
+	.specelity_right_main
+	{
+		padding-right: 0;
+	}
+	#featured_video_slider.owl-theme .owl-nav {
+		top: auto;
+		right: 15px;
+		bottom: 0;
+	}
+/*=========== make_appointment_sec ==============*/
+	.radio_bg
+	{
+		margin-left: 0;
+	}
+/*=========== make_appointment_sec ==============*/
+	.app_download h2 {
+    font-size: 25px;
+	margin: 40px 0 24px 0px;
+	}
+	.app_st1 {
+    border-right: none;
+	}
+/*=========== medical_tourism_sec ==============*/
+	.m_tourism_box h2
+	{
+		font-size: 24px;
+	}
+	.t_btnarea {
+    text-align: left;
+	}
+	.m_tourism_box .tourism_btn
+	{
+		font-size: 17px;
+	}
+/*=========== footer ==============*/
+	.footer
+	{
+		 
+	}
+	.footer_box
+	{
+		margin-bottom: 20px;
+	}
+	.fbox_head img
+	{
+		max-width: 280px;
+	}
+	.copyright_sec
+	{
+		padding-top: 0;
+	}
+	.footer_cpy_left p
+	{
+		font-size: 14px;
+		text-align: center;
+	}
+	.footer_cpy_right ul
+	{
+		margin: 8px 0 0 0;
+    	text-align: center;
+	}
+	/*=== admin-login-page ===*/
+	.ad_bottom_left
+	{
+		width: 100%;
+		order: 2;
+		text-align: center;
+	}
+	.ad_bottom_right {
+		width: 100%;
+    text-align: center;
+    order: 1;
+		margin-top: 10px;
+	}
+	/*===== about page ===*/
+	.ab_overlay_txt {
+		right: 10px;
+		bottom: -60px;
+	}
+	.ab_top {
+    	padding: 30px 0px;
+	}
+	.ab_top h2
+	{
+		font-size: 70px;
+	}
+	.ab_top h2 span
+	{
+		font-size: 44px;
+	}
+	.list_about_call
+	{
+		text-align: center;
+		margin: 40px 0 0 0;
+	}
+	.list_about_call li a
+	{
+		padding: 9px 25px;
+		font-size: 17px;
+	}
+	.history_left {
+    	padding: 40px 0px;
+	}
+	.leader_box,
+	.leader_overlay
+	{
+		transform: none;
+	}
+	.story_top_area
+	{
+		padding: 30px 15px;
+		
+	}
+	.s_feature_reapeat
+	{
+		border-top: 1px solid #111;
+	}
+	.s_feature_reapeat.feature_odd,
+	.s_feature_reapeat.feature_even
+	{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.s_feature_reapeat .s_img_box
+	{
+		position: relative;
+	}
+	.s_feature_reapeat h2
+	{
+		font-size: 34px;
+	}
+	.s_feature_reapeat .s_img_box img
+	{
+		max-width: 90px;
+	}
+	.why_about_heading h2
+	{
+		font-size: 35px;
+		text-align: center;
+	}
+	.ab_choose_box
+	{
+		border: 1px solid #0199cc;
+	}
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+	
+	/*=== nav ===*/
+	.logo_box
+	{
+		width: 163px;
+	}
+	.humb_icon img
+	{
+		width: 27px;
+	}
+	.list_nav_right li
+	{
+		padding: 0 2px;
+	}
+	.list_nav_right li.get_app a
+	{
+		padding: 9px 9px;
+		font-size: 13px;
+	}
+	.li_humbargar_drop .btn
+	{
+		font-size: 18px;
+	}
+	.list_nav_right li a img
+	{
+		width: 80px;
+	}
+	/*=== banner ===*/
+	.banner_txt_box h1
+	{
+		font-size: 16px;
+		margin: 0 0 3px 0;
+    	line-height: 1.5;
+	}
+	.banner_txt_box h3
+	{
+		font-size: 20px;
+	}
+	.banner_txt_box .banner_btn1
+	{
+		padding: 4px 13px;
+    	margin: 0 0 0px 0;
+	}
+	#main_banner .carousel-indicators li
+	{
+		width: 30px;
+    	height: 30px;
+		line-height: 30px;
+	}
+	/*==== how_use_sec ====*/
+	.list_count li
+	{
+		margin-bottom: 20px;
+	}
+	.count_box h3
+	{
+		position: relative;
+		top: 0;
+	}
+	.count_box h3
+	{
+		font-size: 45px;
+	}
+	.count_box h4
+	{
+		font-size: 25px;
+	}
+	/*====== panel_expert_sec ====*/
+	
+	.i_book_appoinment a
+	{
+		font-size: 15px;
+		padding: 12px 20px;
+	}
+	
+	/*==== footer ===*/
+	.f_departments_box .ft_links ul li
+	{
+		width: 100%;
+	}
+	.list_contact_details li
+	{
+		    padding-left: 70px;
+	}
+	.cl_box p
+	{
+		font-size: 14px;
+	}
+	
+	
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	/*========= top_header =========*/
+	.top_head_left ul li.li_signup a
+	{
+		padding: 5px 17px
+	}
+	
+	/*=== nav ==*/
+	.nav_sec
+	{
+		padding: 9px 0;
+	}
+	.mobile_menu_box
+	{
+		text-align: right;
+	}
+	.mobile_nav_sec
+	{
+		display: block;
+	}
+	.logo_box_main, .li_humbargar_drop_menu
+	{
+		display: none !important;
+	}
+	.nav_right_box_main {
+    justify-content: center;
+		margin-top: 10px;
+	}
+	/*===== Banner ====*/
+	.banner_overlay
+	{
+		 left: 0;
+		top: 10px;
+		padding-left: 25px;
+	}
+	.banner_txt_box h1
+	{
+		font-size: 29px;
+		margin: 0 0 7px 0;
+    	line-height: 1.2;
+	}
+	.banner_txt_box h3
+	{
+		font-size: 22px;
+		margin: 0 0 14px 0;
+	}
+	/*=========== doc_location_sec =======*/
+	.doc_location_sec {
+    margin-top: 24px;
+	}
+	.doc_loc3
+	{
+		padding-left: 0;
+		padding: 40px 0;
+	}
+	.doc_loc3 h3
+	{
+		transform: none;
+		text-align: left;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.detct_loc .btn_detect
+	{
+		right: 0;
+	}
+/*====== why_choose_sec ====*/
+	.why_choose_left
+	{
+		padding: 30px 0;
+		border-right: none;
+	}	
+/*==== how_use_sec ====*/
+	.how_use_right
+	{
+		margin-top: 20px;
+	}
+	.list_count li
+	{
+
+	}
+	.count_box h3
+	{
+		font-size: 45px;
+	}
+	.count_box h4
+	{
+		font-size: 25px;
+	}
+	.how_use_right h3
+	{
+		font-size: 27px;
+	}
+	/*====== panel_expert_sec =====*/
+	.exp_panel_overlay
+	{
+		padding-right: 0;
+	}
+	.panel_exp_left {
+    padding: 40px 40px 40px 20px;
+	}
+	.panel_exp_left h2
+	{
+		font-size: 34px;
+	}
+	.doc_name_box:before
+	{
+		display: none;
+	}
+	.doc_name_box
+	{
+		padding: 15px 15px;
+    	max-width: 100%;
+	}
+	.doc_name_box h3
+	{
+		font-size: 20px;
+	}
+	.doc_name_box h4
+	{
+		font-size: 18px;
+	}
+	.i_book_appoinment a
+	{
+		    font-size: 16px;
+		    padding: 12px 13px;
+	}
+	.panel_exp_left .view_all_btn
+	{
+		    width: 124px;
+	}
+	/*==== our_speciality_sec ====*/
+	.our_spe_left h2
+	{
+		font-size: 26px;
+	}
+	.specelity_right_main
+	{
+		padding-right: 0;
+	}
+	#featured_video_slider.owl-theme .owl-nav {
+		top: auto;
+		right: 15px;
+		bottom: 0;
+	}
+	/*=========== medical_tourism_sec ==============*/
+	.m_tourism_box h2
+	{
+		font-size: 24px;
+	}
+	.t_btnarea {
+    text-align: left;
+	}
+	.m_tourism_box .tourism_btn
+	{
+		font-size: 17px;
+	}
+/*=========== footer ==============*/
+	/*===== about page ===*/
+	.about_meleft
+	{
+		padding-left: 15px;;
+	}
+	.ab_overlay_txt {
+		right: 10px;
+		bottom: -60px;
+	}
+	.ab_top {
+    	padding: 30px 0px;
+	}
+	.story_top_area
+	{
+		padding: 30px 15px;
+	}
+	
+	
+
+	
+}
+
+/********************@media only screen and (min-width:1024px) and (max-width:1200px)********************/
+
+
+@media (min-width:992px) and (max-width:1199px) {
+/*===== Banner ====*/
+	.banner_overlay
+	{
+		left: 0;
+		top: 30px;
+		padding-left: 25px;
+	}
+	.banner_txt_box h1
+	{
+		font-size: 35px;
+		margin: 0 0 7px 0;
+    	line-height: 1.2;
+	}
+	.banner_txt_box h3
+	{
+		font-size: 27px;
+		margin: 0 0 14px 0;
+	}
+	/*=========== doc_location_sec =======*/
+	.doc_location_sec {
+    margin-top: 24px;
+	}
+	.doc_loc3
+	{
+		padding-left: 0;
+		padding: 40px 0;
+	}
+	.doc_loc3 h3
+	{
+		transform: none;
+		text-align: left;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.detct_loc .btn_detect
+	{
+		right: 0;
+	}
+	/*====== why_choose_sec ====*/
+	.why_choose_left
+	{
+		
+		
+	}
+	.why_choose_left h2
+	{
+		
+	}
+	.choose_box_r
+	{
+		
+    	padding: 15px;
+	}
+	.ch_top .wc_img {
+		left: 15px;
+		top: 15px;
+	}
+	.ch_top .wc_img img
+	{
+		max-width: 110px;
+	}
+	.ch_top
+	{
+		padding-left: 120px;
+	}
+	/*==== how_use_sec ====*/
+	.how_use_right
+	{
+		margin-top: 20px;
+	}
+	.list_count li
+	{
+		
+	}
+	.count_box h3
+	{
+		font-size: 45px;
+	}
+	.count_box h4
+	{
+		font-size: 25px;
+	}
+	.how_use_right h3
+	{
+		font-size: 27px;
+	}
+	.list_application_step
+	{
+		padding: 0;
+	}
+	.how_use_left {
+    padding: 0 15px;
+	}
+	/*==== our_speciality_sec ====*/
+	.our_spe_left h2
+	{
+		font-size: 26px;
+	}
+	.specelity_right_main
+	{
+		padding-right: 0;
+	}
+	#featured_video_slider.owl-theme .owl-nav {
+		top: auto;
+		right: 15px;
+		bottom: 0;
+	}
+	.speciality_item_box h3
+	{
+		/*font-size: 17px;*/
+	}
+	
+	.medical_tourism_sec
+	{
+		display: none;
+	}
+	/*==== footer ====*/
+	.f_quick_box .footer_heading
+	{
+		font-size: 30px;
+	}
+	.list_contact_details li
+	{
+		padding-left: 70px;
+	}
+	/*========================*/
+	.join_team_left h2
+	{
+		font-size: 36px;
+	}
+	.app_download h2
+	{
+		font-size: 32px;
+	}
+	/*===== about page ===*/
+	.about_me_sec
+	{
+		padding-bottom: 30px;
+	}
+	.ab_overlay_txt {
+		right: 10px;
+		bottom: -60px;
+	}
+	.ab_top {
+    	padding: 0px 0px;
+	}
+	.ab_top h2
+	{
+		font-size: 70px;
+	}
+	.ab_top h2 span
+	{
+		font-size: 44px;
+	}
+	.ab_top h3
+	{
+		margin: -10px 0 0px 0;
+	}
+	.history_left {
+		padding: 40px 0px;
+	}
+	.history_left p
+	{
+		font-size: 16px;
+		line-height: 1.3;
+	}
+	.our_leader_head_box h2 strong
+	{
+		display: inline-block;
+	}
+	.list_about_call
+	{
+		margin: 30px 0 0 0;
+	}
+	.our_leader_head_box
+	{
+		padding: 30px 0px 30px 0px;
+	}
+	.our_leader_head_box h2
+	{
+		font-size: 32px;
+	}
+	.story_top_area .story_desc h2
+	{
+		font-size: 34px;
+	}
+	
+}
+
+	
+/********************@media only screen and (min-width:1201px)********************/
+
+	
+
+/********************@media only screen and (min-width:1201px)********************/

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Doctor Consultation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link href="css/video.popup.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet" />
+<link href="css/theme.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<!-- top_header -->
+<section class="top_header">
+  <div class="container">
+    <div class="row top_header_inner">
+      <div class="col-md-4 col-sm-12 top_head_box">
+        <div class="top_head_left">
+          <ul>
+            <li class="li_login"><a href="admin-login.html"><span><img src="images/user_login_icon.png" alt="" /></span> Login</a></li>
+            <li class="li_signup"><a href="">Sign Up <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12 top_head_box top_head_right_main">
+        <div class="top_head_right">
+          <ul>
+            <li><a href="tel:1234567890"><span><i class="fa fa-phone" aria-hidden="true"></i></span> (123)456-7890</a></li>
+            <li><a href="mailto:info@example.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> info@example.com</a></li>
+            <li><a href=""><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Find Us</a></li>
+            <li class="li_social"> <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- nav_sec -->
+<section class="nav_sec" id="sticky-wrap">
+  <div class="container">
+    <div class="row nav_inner"> 
+      <!-- mobile -->
+      <nav class="navbar navbar-expand-lg navbar-dark mobile_nav_sec"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu</span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Doctor List</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- mobile  End-->
+      <div class="col-md-4 col-sm-4 logo_box_main">
+        <div class="logo_box"> <a href="index.html"><img src="images/logo.png" alt="" /></a> </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 nav_right_box_main">
+        <div class="nav_right_box">
+          <ul class="list_nav_right">
+            <li class="get_app"><a href="">Get Our App</a></li>
+            <li><a href=""><img src="images/android_icon.png" alt="" /></a></li>
+            <li><a href=""><img src="images/appstore_icon.png" alt="" /></a></li>
+            <li class="li_humbargar_drop_menu">
+              <div class="dropdown li_humbargar_drop">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"> <span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu </button>
+                <div class="dropdown-menu">
+                  <ul class="list_side_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Doctors</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- banner_sec -->
+<section class="banner_sec"> <img src="images/bannner1.jpg" alt="" />
+  <div class="banner_overlay">
+    <div class="banner_txt_box wow fadeInLeft">
+      <h1>Better Doctors, <br>
+        <span class="txt_color_green">Clinics</span> &<span class="txt_color_red">Labs</span>. </h1>
+      <h3>We'll help you find it.</h3>
+      <a href="" class="banner_btn1">Make an appointment</a>
+      <div class="banner_form_area">
+        <form class="banner_form">
+          <div class="txb_banner_search">
+            <input type="text" class="form-control" placeholder="Search Doctors..">
+            <button type="button" class="btn_serach1"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- doc_location_sec -->
+<section class="doc_location_sec">
+  <div class="container">
+    <div class="doc_loc_inner wow fadeInUp">
+      <div class="row">
+        <div class="col-md-3 doc_loc1_main">
+          <div class="doc_loc1">
+            <h3>Verified Specialists</h3>
+            <p>Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <a href="">Click here <span><img src="images/right_blue_small_icon.png" alt="" /></span></a> </div>
+        </div>
+        <div class="col-md-3 doc_loc2_main">
+          <div class="doc_loc2">
+            <h3>Affordable Consultations</h3>
+            <p>Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <a href="">Click here <span><img src="images/right_white_small_icon.png" alt="" /></span></a> </div>
+        </div>
+        <div class="col-md-6 doc_loc3_main">
+          <div class="doc_loc3">
+            <h3>Search Doctors</h3>
+            <div class="loc_for_area">
+              <form class="loc_detect_form">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group detct_loc">
+                      <input type="text" class="form-control" placeholder="Location..">
+                      <button type="button" class="btn_detect bg_hover_red"><span><img src="images/location_detect_icon.png" alt="" /></span> Detect</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Specialisation..">
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group btn_detect_area">
+                      <button type="button" class="btn_detect_submit bg_hover_red">Search</button>
+                    </div>
+                  </div>
+                </div>
+                <!--<div class="txb_banner_search">
+								<input type="text" class="form-control" placeholder="Search Doctors..">
+								<button type="button" class="btn_serach1"><i class="fa fa-search" aria-hidden="true"></i></button>
+							  </div>-->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- why_choose_sec -->
+<section class="why_choose_sec">
+  <div class="container">
+    <div class="row why_choose">
+      <div class="col-lg-4 col-md-12 why_left wow fadeInLeft">
+        <div class="why_choose_left">
+          <h2>Why Choose Us?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 why_right">
+        <div class="why_choose_right">
+          <div class="row">
+            <div class="col-md-6 wow fadeInUp">
+              <div class="choose_box_r">
+                <div class="ch_top">
+                  <div class="wc_img"> <img src="images/w_choose1.png" alt="" /> </div>
+                  <h3>Doctor</h3>
+                  <h4>Consultation</h4>
+                  <a href="" class="bg_hover_red">Read More</a> </div>
+                <div class="ch_bottom">
+                  <p>Risus commodo viverra maecenas accumsan lacus vel facilisis.  Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp">
+              <div class="choose_box_r">
+                <div class="ch_top">
+                  <div class="wc_img"> <img src="images/w_choose2.png" alt="" /> </div>
+                  <h3>Ambulance</h3>
+                  <h4>Service</h4>
+                  <a href="" class="bg_hover_red">Read More</a> </div>
+                <div class="ch_bottom">
+                  <p>Risus commodo viverra maecenas accumsan lacus vel facilisis.  Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp">
+              <div class="choose_box_r">
+                <div class="ch_top">
+                  <div class="wc_img"> <img src="images/w_choose3.png" alt="" /> </div>
+                  <h3>Clinic</h3>
+                  <h4>Bookings</h4>
+                  <a href="" class="bg_hover_red">Read More</a> </div>
+                <div class="ch_bottom">
+                  <p>Risus commodo viverra maecenas accumsan lacus vel facilisis.  Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp">
+              <div class="choose_box_r">
+                <div class="ch_top">
+                  <div class="wc_img"> <img src="images/w_choose4.png" alt="" /> </div>
+                  <h3>Medicine</h3>
+                  <h4>Refills</h4>
+                  <a href="" class="bg_hover_red">Read More</a> </div>
+                <div class="ch_bottom">
+                  <p>Risus commodo viverra maecenas accumsan lacus vel facilisis.  Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- how_use_sec -->
+<section class="how_use_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 wow fadeInLeft">
+        <div class="how_use_left"> <img src="images/how_can_help_img.png" alt="" />
+          <ul class="list_count">
+            <li>
+              <div class="count_box">
+                <h3>59<span>k</span></h3>
+                <h4>Downloads</h4>
+              </div>
+            </li>
+            <li>
+              <div class="count_box">
+                <h3>46<span>k</span></h3>
+                <h4>Happy Customers</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 wow fadeInRight">
+        <div class="how_use_right">
+          <h5>How to use it?</h5>
+          <h3>How does our online consultation work?</h3>
+          <ul class="list_application_step">
+            <li>
+              <div class="step_box">
+                <div class="step_icon"> <img src="images/use_step_img1.png" alt="" /> </div>
+                <h3><img src="images/step1.png" alt="" /></h3>
+                <h4>Fill up  your medical condition form.</h4>
+              </div>
+            </li>
+            <li>
+              <div class="step_box">
+                <div class="step_icon"> <img src="images/use_step_img2.png" alt="" /> </div>
+                <h3><img src="images/step2.png" alt="" /></h3>
+                <h4>Get a consulting  physician in minutes.</h4>
+              </div>
+            </li>
+            <li>
+              <div class="step_box">
+                <div class="step_icon"> <img src="images/use_step_img3.png" alt="" /> </div>
+                <h3><img src="images/step3.png" alt="" /></h3>
+                <h4>Pay the consultation fees online.</h4>
+              </div>
+            </li>
+            <li>
+              <div class="step_box">
+                <div class="step_icon"> <img src="images/use_step_img4.png" alt="" /> </div>
+                <h3><img src="images/step4.png" alt="" /></h3>
+                <h4>Get diagnosis & prescription.</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- panel_expert_sec -->
+<section class="panel_expert_sec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 col-sm-4 panel_exp_left_main wow fadeInUp">
+        <div class="panel_exp_left">
+          <h3>+</h3>
+          <h2>Our <br>
+            Panel <br>
+            Of <br>
+            Experts</h2>
+          <a href="" class="view_all_btn">View all <span><img src="images/right_blue_icon.png" alt="" /></span></a> </div>
+      </div>
+      <div class="col-md-9 col-sm-8 panel_exp_right_main wow fadeInDown">
+        <div class="panel_exp_right">
+          <div class="owl-carousel owl-theme" id="panel_expert_slider">
+            <div class="item">
+              <div class="exp_panel_item">
+                <div class="exp_img_area"> <img src="images/exp_panel1.jpg" alt="" /> </div>
+                <div class="exp_panel_overlay">
+                  <div class="i_book_appoinment"> <a href="">Book an appointment <span><img src="images/right_white_icon.png" alt="" /></span></a> </div>
+                  <div class="doc_name">
+                    <div class="doc_name_box">
+                      <h3>Dr. Joshua Clark</h3>
+                      <h4>Neurosurgeon</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="exp_panel_item">
+                <div class="exp_img_area"> <img src="images/exp_panel1.jpg" alt="" /> </div>
+                <div class="exp_panel_overlay">
+                  <div class="i_book_appoinment"> <a href="">Book an appointment <span><img src="images/right_white_icon.png" alt="" /></span></a> </div>
+                  <div class="doc_name">
+                    <div class="doc_name_box">
+                      <h3>Dr. Joshua Clark</h3>
+                      <h4>Neurosurgeon</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="exp_panel_item">
+                <div class="exp_img_area"> <img src="images/exp_panel1.jpg" alt="" /> </div>
+                <div class="exp_panel_overlay">
+                  <div class="i_book_appoinment"> <a href="">Book an appointment <span><img src="images/right_white_icon.png" alt="" /></span></a> </div>
+                  <div class="doc_name">
+                    <div class="doc_name_box">
+                      <h3>Dr. Joshua Clark</h3>
+                      <h4>Neurosurgeon</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- join_team_sec -->
+<section class="join_team_sec">
+  <div class="container-fluid">
+    <div class="row join_team_inner">
+      <div class="col-lg-7 col-md-12 col-sm-12 join_team_left_main ">
+        <div class="join_team_left wow fadeInUp">
+          <h2>Join Our Team</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a href="" class="join_here_btn">Click Here <span><img src="images/right_white_icon.png" alt="" /></span></a> </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-sm-12 join_team_right_main ">
+        <div class="join_team_right wow fadeInRight">
+          <h3>Search by Doctor’s Name..</h3>
+          <div class="doc_name_serach_box">
+            <form class="doc_name_serach_form">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Doctor’s name..">
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <button type="button" class="btn_serach_doc"><img src="images/serach_red_round_icon.png" alt="" /></button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- who_we_are_sec -->
+<section class="who_we_are_sec">
+  <div class="container">
+    <div class="row who_we_are_inner">
+      <div class="col-lg-6 col-md-12 col-sm-8 who_we_left_main wow fadeInLeft">
+        <div class="who_we_left">
+          <h2>Who we are</h2>
+          <p class="txt_color_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <p class="txt_color_blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+          <a href="" class="redmore_who">Read More <span><img src="images/right_button_arrow.png" alt="" /></span></a> </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-4 who_we_right_main wow fadeInUp">
+        <div class="who_we_right">
+          <div class="circle-ripple"><a href="javascript:void(0)" class="videoPop" video-url="https://www.youtube.com/embed/cUxRhesT8gY"><i class="fa fa-play" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- our_speciality_sec -->
+<section class="our_speciality_sec ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 specelity_left_main">
+        <div class="our_spe_left wow fadeInLeft">
+          <h2><span>Our</span>Specialities</h2>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-9 specelity_right_main">
+        <div class="our_spe_right wow fadeInDown">
+          <div class="owl-carousel owl-theme" id="featured_video_slider">
+            <div class="item">
+              <div class="speciality_item_box">
+                <div class="sp_align">
+                  <div class="sp_icon"><img src="images/os_icon1.png" alt="" /></div>
+                  <h3>General Medicine</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="speciality_item_box">
+                <div class="sp_align">
+                  <div class="sp_icon"><img src="images/os_icon2.png" alt="" /></div>
+                  <h3>Cardiology</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="speciality_item_box">
+                <div class="sp_align">
+                  <div class="sp_icon"><img src="images/os_icon3.png" alt="" /></div>
+                  <h3>Orthopaedics</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="speciality_item_box">
+                <div class="sp_align">
+                  <div class="sp_icon"><img src="images/os_icon2.png" alt="" /></div>
+                  <h3>Cardiology</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- make_appointment_sec -->
+<section class="make_appointment_sec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-7 col-md-12 col-sm-7 m_appointment_area ">
+        <div class="appointment_box wow fadeInLeft">
+          <h2>Make an <span>Appointment</span></h2>
+          <form class="make_appointment_form">
+            <div class="row">
+              <div class="col-md-9 col-sm-8">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Location..">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="form-group">
+                  <div class="radio_bg">
+                    <ul class="list_doc_radio">
+                      <li>
+                        <div class="custom-control custom-radio cus_radio">
+                          <input type="radio" checked class="custom-control-input" id="doctorRadio" name="doc_radio">
+                          <label class="custom-control-label" for="doctorRadio">Doctor</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="custom-control custom-radio cus_radio">
+                          <input type="radio" class="custom-control-input" id="clinicRadio" name="doc_radio">
+                          <label class="custom-control-label" for="clinicRadio">Clinic</label>
+                        </div>
+                      </li>
+                    </ul>
+                    
+                    <!--<div class="custom-control custom-radio">
+								  <input type="radio" class="custom-control-input" id="clinicRadio" name="example1">
+								  <label class="custom-control-label" for="clinicRadio">Custom radio</label>
+								</div> --> 
+                    <!--<button type="button" class="btn_detect1"><span><img src="images/location_detect_icon.png" alt=""></span> Detect</button>--> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <select class="form-control slect_form1">
+                    <option>Select Speciality</option>
+                    <option>Speciality One</option>
+                    <option>Speciality Two</option>
+                    <option>Speciality Three</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <select class="form-control slect_form1">
+                    <option>Select Location</option>
+                    <option>Speciality One</option>
+                    <option>Speciality Two</option>
+                    <option>Speciality Three</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group"> 
+                  <!--<input type="date" class="form-control">-->
+                  <div id="datepicker" class="input-group date comman_date_picker" data-date-format="mm-dd-yyyy">
+                    <input class="form-control" type="text" readonly />
+                    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span> </div>
+                  <!--<input type="text" id="datepicker" data-date-format="mm/dd/yyyy" class="form-control">--> 
+                  
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <select class="form-control slect_form1">
+                    <option>Select Time Slot</option>
+                    <option>8 AM - 9AM</option>
+                    <option>9 AM - 10AM</option>
+                    <option>11 AM - 12PM</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group app_submit_area">
+                  <button type="button" class="btn_app_submit">Proceed to Payment <span><img src="images/right_white_icon.png" alt="" /></span></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-sm-5">
+        <div class="app_download wow fadeInUp">
+          <h2>Download our <span>App</span></h2>
+          <div class="app_inner_bg">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 app_st1">
+                <div class="app_store "> <img src="images/apple_store_icon.png" alt="" />
+                  <h3><a href="">Apple App Store</a></h3>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="app_store"> <img src="images/playstore_icon.png" alt="" />
+                  <h3><a href="">Google Play Store</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- medical_tourism_sec -->
+<section class="medical_tourism_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7"></div>
+      <div class="col-sm-5">
+        <div class="m_tourism_box">
+          <h2 class="wow fadeInDown">We provide <span class="txt_color_red">Medical</span> <span class="span_block"><span class="txt_color_red">Tourism</span> Facilities</span></h2>
+          <div class="t_btnarea"> <a href="" class="tourism_btn wow fadeInUp">Leran More <span><img src="images/tourism_btn_arrow.png" alt=""></span></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer_sec -->
+<section class="footer" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 footer_box">
+        <div class="fbox_head"> <img src="images/logo.png" alt="" /> </div>
+        <ul class="list_contact_details">
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_home_icon.png" alt=""></div>
+              <p>YC CoWorking Space, 3RD Floor,<br>
+                Plot No.94, Dwarka Sector-13, Delhi - 110078.</p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_mail_icon.png" alt=""></div>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_headfonel_icon.png" alt=""></div>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 footer_box f_quick_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Quick Links</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav" id="footer_navigation">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Mission</a></li>
+            <li><a href="">Bookings & Appointments</a></li>
+            <li><a href="">Specialities</a></li>
+            <li><a href="">Doctor Listings</a></li>
+            <li><a href="">Join Us</a></li>
+            <li><a href="">Medicine Refills</a></li>
+            <li><a href="">Flight Tickets</a></li>
+            <li><a href="">Pricing Plans</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 footer_box f_departments_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Specialities & Departments</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav">
+            <li><a href="">Cardiology</a></li>
+            <li><a href="">Oral Health</a></li>
+            <li><a href="">Diabetes</a></li>
+            <li><a href="">Orthopedics</a></li>
+            <li><a href="">Plastic Surgery</a></li>
+            <li><a href="">Osteology</a></li>
+            <li><a href="">Gastroenterology</a></li>
+            <li><a href="">Otology</a></li>
+            <li><a href="">Gynecology</a></li>
+            <li><a href="">Pediatrics</a></li>
+            <li><a href="">Hepatology</a></li>
+            <li><a href="">Psychiatry</a></li>
+            <li><a href="">Neurology</a></li>
+            <li><a href="">Pulmonology</a></li>
+            <li><a href="">Obstetrics</a></li>
+            <li><a href="">Radiology</a></li>
+            <li><a href="">Ophthalmology</a></li>
+            <li><a href="">Rhinology</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- copyright_sec -->
+<section class="copyright_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6">
+        <div class="footer_cpy_left">
+          <p>Copyright 2019, All Right Reserved. WIS.</p>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <div class="footer_cpy_right">
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Use</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="admin-login.html">Login</a></li>
+            <li class="ft_signup"><a href="">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- scrollup_sec --> 
+<a href="javascript:void(0)" id="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+<!-- jQuery Area --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/jquery.viewbox.js"></script> 
+<script src="js/video.popup.js"></script> 
+<script src="js/wow.js"></script> 
+<script src="js/datepicker.js"></script> 
+<script src="js/theme.js"></script> 
+<script>
+	$(".how_use_left img").mousemove(function(event){
+	  var mousex = event.pageX - $(this).offset().left;
+	  var mousey = event.pageY - $(this).offset().top;
+	  var imgx = (mousex - 500) / 60;
+	  var imgy = (mousey - 200) / 40;
+	  $(this).css("transform", "translate(" + imgx + "px," + imgy + "px)");
+	});
+	$(".how_use_left img").mouseout(function(){
+	  $(this).css("transform", "translate(7px,6px)");
+	});
+	</script>
+</body>
+</html>
