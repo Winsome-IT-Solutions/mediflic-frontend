@@ -17,6 +17,7 @@
 </head>
 <body>
 <!-- top_header -->
+
 <section class="top_header">
   <div class="container">
     <div class="row top_header_inner">
@@ -41,6 +42,7 @@
     </div>
   </div>
 </section>
+
 <!-- nav_sec -->
 <section class="nav_sec" id="sticky-wrap">
   <div class="container">
@@ -86,12 +88,13 @@
     </div>
   </div>
 </section>
+
 <!-- search_doctor_page -->
 	<section class="search_doctor_page menu_border_top_only">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-12 search_doctor_left">
-					<div class="left_serach_bar">
+			<div class="row container_row">
+				<div class="col-lg-3 col-md-12 col-sm-12 search_doctor_left" id="sidebar">
+					<div class="left_serach_bar sidebar__inner">
 						<div class="search_blue">
 							<div class="doc_search_head">
 								<div class="search_comman_lr_padd">
@@ -195,13 +198,48 @@
 									<h4 style="color: #fff;">Consultation Fee</h4>	
 								</div>
 							<div class="p_slider_box">
-								pppppppppp
+								<div class="price-slider" data-min-value="1" data-max-value="2000"></div>
+								  <div class="price-input">
+									<input class="js-default-value js-slider-value" type="text" disabled value="25" />
+								  </div>
+							</div>
+						</div>
+						</div>
+						<!-- gender_vidget -->
+						<div class="gender_vidget">
+							<div class="search_comman_lr_padd">
+								<div class="sp_heading_comman">
+									<h4>Gender</h4>	
+								</div>
+							<div class="gender_vidget_box">
+								<ul class="list_gender_radio">
+									<li>
+										<div class="frb radio_male frb-success">
+									<input type="radio" id="radio-button-1" name="radio-button" value="1">
+									<label for="radio-button-1">
+										<span class="frb-title">Male Doctor</span>
+									</label>
+								</div>
+									</li>
+									<li>
+										<div class="frb radio_female frb-success">
+									<input type="radio" id="radio-button-2" name="radio-button" value="2">
+									<label for="radio-button-2">
+										<span class="frb-title">Female Doctor</span>
+									</label>
+								</div>
+									</li>
 								
-
-
-
+								</ul>
 								
-								
+							</div>
+							
+							<div class="reset_search_filter">
+								<a href="" class="rst_btn"><span><i class="fa fa-window-close-o" aria-hidden="true"></i></span> Reset Filter</a>
+							</div>
+							<div class="doctor_img_vidget">
+								<img src="images/doctor_art_img.jpg" alt="" />
+
 							</div>
 						</div>
 						</div>
@@ -211,9 +249,11 @@
 					</div>
 				</div>
 				<!-- search_doctor_right -->
-				<div class="col-lg-9 col-md-8 col-sm-12 search_doctor_right">
+				<div class="col-lg-9 col-md-12 col-sm-12 search_doctor_right" id="content">
 					<div class="right_serach_bar">
-						<div class="find_doctor_area">
+						<div class="find_doctor_area ">
+							<div class="doc_right_comman">
+							<div class="find_doctor_box ">
 							<h3>Find Your Physician..</h3>
 							<form class="find_physician_form">
 								<div class="row">
@@ -258,11 +298,729 @@
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-2 find_advance">
-										<a href=""><img src="images/advance_search_icon.png" alt="" /></a>
+										<a href="" class="ad_search_link"><img src="images/advance_search_icon.png" alt="" /></a>
+										<p>Advance Search</p>
 									</div>
 								</div>
 								
 							</form>
+						</div>
+						</div>
+						</div>
+						
+						<!-- search_feature_doctor -->
+						<div class="search_feature_area ">
+							<div class="search_feature_inner_width">
+							<div class="doc_right_comman">
+							<div class="search_feature wow fadeInDown">
+								<h2 class="big_heading_comman">Feature <span class="txt_color_red">Doctor</span></h2>
+								<div class="owl-carousel owl-theme" id="search_doctor_slider">
+									<div class="item">
+									  <div class="doctor_item_box">
+										  	<div class="doctor_item_top">
+										  		<div class="doctor_item_img_box">
+														<div class="doc_img_inner">
+															<div class="doc_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<div class="doc_item_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>
+															<div class="doc_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>4.7/5.0</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h3>Dr. Emma Bunton</h3>
+													<p>Orthosurgeon</p>
+												</div>
+										  	</div>
+										  	<div class="doctor_item_bottom">
+										  		<a href="">Book an appointment <span><img src="images/right_white_icon.png" alt=""></span></a>
+										  	</div>
+										
+									  </div>
+									</div>
+									
+									<div class="item">
+									  <div class="doctor_item_box">
+										  	<div class="doctor_item_top">
+										  		<div class="doctor_item_img_box">
+														<div class="doc_img_inner">
+															<div class="doc_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<div class="doc_item_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>
+															<div class="doc_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>4.7/5.0</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h3>Dr. Emma Bunton</h3>
+													<p>Orthosurgeon</p>
+												</div>
+										  	</div>
+										  	<div class="doctor_item_bottom">
+										  		<a href="">Book an appointment <span><img src="images/right_white_icon.png" alt=""></span></a>
+										  	</div>
+										
+									  </div>
+									</div>
+									<div class="item">
+									  <div class="doctor_item_box">
+										  	<div class="doctor_item_top">
+										  		<div class="doctor_item_img_box">
+														<div class="doc_img_inner">
+															<div class="doc_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<div class="doc_item_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>
+															<div class="doc_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>4.7/5.0</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h3>Dr. Emma Bunton</h3>
+													<p>Orthosurgeon</p>
+												</div>
+										  	</div>
+										  	<div class="doctor_item_bottom">
+										  		<a href="">Book an appointment <span><img src="images/right_white_icon.png" alt=""></span></a>
+										  	</div>
+										
+									  </div>
+									</div>
+									<div class="item">
+									  <div class="doctor_item_box">
+										  	<div class="doctor_item_top">
+										  		<div class="doctor_item_img_box">
+														<div class="doc_img_inner">
+															<div class="doc_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<div class="doc_item_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>
+															<div class="doc_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>4.7/5.0</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h3>Dr. Emma Bunton</h3>
+													<p>Orthosurgeon</p>
+												</div>
+										  	</div>
+										  	<div class="doctor_item_bottom">
+										  		<a href="">Book an appointment <span><img src="images/right_white_icon.png" alt=""></span></a>
+										  	</div>
+										
+									  </div>
+									</div>
+								  </div>
+							</div>
+							</div>
+						</div>
+						</div>
+						
+						<!-- result_show_sec -->
+						<div class="result_show_sec ">
+							<div class="doc_right_comman">
+							<div class="result_show_area">
+								<h2 class="big_heading_comman">Search <span class="txt_color_red">Results..</span></h2>
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="result_card repeat_card wow fadeInDown">
+									<div class="row">
+										<div class="col-lg-8 col-md-8 card_doc_area_left">
+											<div class="card_doc_area">
+												<div class="doctor_card_top">
+										  		<div class="doctor_card_img_box">
+														<div class="card_img_inner">
+															<div class="card_img_box">
+																<img src="images/exp_panel1.jpg" alt="" />
+															</div>
+															<!--<div class="doc_card_heart"><i class="fa fa-heart" aria-hidden="true"></i></div>-->
+															<div class="card_item_verify">
+																<div class="veryfy_inner">
+																	<div class="very_tick"><img src="images/verify_tick_icon.png" alt="" /></div>
+																	<h4>Verified</h4>
+																</div>
+															</div>
+														</div>
+													
+												</div>
+												<div class="doctor_top_content">
+													<h4>Diognostic Radiology</h4>
+													<h3>Sarah Champman</h3>
+													<p>MBBS,MRCS (Optha,UK)</p>
+													<ul>
+														<li>Rating <span class="li_span_rating">4.5/5.0</span></li>
+														<li><span class="txt_color_red">23</span> FEEDBACK</li>
+													</ul>
+												</div>
+										  	</div>
+											</div>
+											
+											
+										</div>
+										<div class="col-lg-4 col-md-4 card_doc_area_right">
+											<div class="card_show_right">
+												<ul class="list_show_card">
+													<li>
+														<div class="c_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+														<p><span class="txt_color_red">Kolkata India</span></p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+														<p>Mondy, Tuesday,Wednesday</p>
+													</li>
+													<li>
+														<div class="c_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+														<p>Starting from <span class="txt_color_red">INR 700</span></p>
+													</li>
+												</ul>
+												<h4>Available Today</h4>
+											</div>
+										</div>
+											 
+									</div>
+									<div class="row affiliation_row">
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<div class="show_lag_left">
+												<h4>CLINIC HOSPITAL AFFILIATION</h4>
+													<ul class="list_affi_center">
+														<li><a href="">Apollo Medical Center</a></li>
+														<li><a href="">Hegde Center</a></li>
+														<li><a href="">Apollo Center</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+												<ul class="list_specility_tag">
+														<li style="color: #00ccce;"><span><i class="fa fa-tag" aria-hidden="true"></i></span> Tag</li>
+														<li><a href="">Radiology</a></li>
+														<li><a href="">Oncology</a></li>
+														<li><a href="">Diagonstic</a></li>
+														<li class="li_viewall"><a href="">view all..</a></li>
+													</ul>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="show_tag_right">
+												<a href="" class="lnk_book bg_color_blue">Book Appointment</a>
+												<a href="" class="lnk_book bg_color_red">Consult Online</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
 						</div>
 					
 					</div>
@@ -272,6 +1030,7 @@
 	</section>
 
 <!-- footer_sec -->
+<footer>
 <section class="footer" id="contact">
   <div class="container">
     <div class="row">
@@ -372,6 +1131,7 @@
     </div>
   </div>
 </section>
+</footer>
 <!-- scrollup_sec --> 
 <a href="javascript:void(0)" id="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
 <!-- jQuery Area --> 
@@ -383,18 +1143,18 @@
 <script src="js/video.popup.js"></script> 
 <script src="js/wow.js"></script> 
 <script src="js/datepicker.js"></script> 
+<script src='js/jquery-ui.min.js'></script>
+<script  src="js/price-slider.js"></script>
 <script src="js/theme.js"></script> 
-<script>
-	$(".how_use_left img").mousemove(function(event){
-	  var mousex = event.pageX - $(this).offset().left;
-	  var mousey = event.pageY - $(this).offset().top;
-	  var imgx = (mousex - 500) / 60;
-	  var imgy = (mousey - 200) / 40;
-	  $(this).css("transform", "translate(" + imgx + "px," + imgy + "px)");
-	});
-	$(".how_use_left img").mouseout(function(){
-	  $(this).css("transform", "translate(7px,6px)");
-	});
+<script src="js/sticky-sidebar.js"></script> 
+<!-- stick sidebar -->
+<script type="text/javascript">
+		var a = new StickySidebar('#sidebar', {
+			topSpacing: 20,
+			bottomSpacing: 20,
+			containerSelector: '.container_row',
+			innerWrapperSelector: '.sidebar__inner'
+		});
 	</script>
 </body>
 </html>

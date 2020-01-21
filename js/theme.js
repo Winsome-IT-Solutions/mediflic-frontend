@@ -36,6 +36,44 @@ cc.owlCarousel({
 
 }
 });
+/*==  search_doctor_slider ==*/
+var cc = $('#search_doctor_slider');
+cc.owlCarousel({
+	autoplay:false,
+    loop:true,
+    nav:true,
+	dots:false,
+	margin:20,
+	navText: [ '<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>' ],
+	
+	responsive : {
+    // breakpoint from 0 up
+   0:{
+            items:1,
+            nav:true
+        },
+    // breakpoint from 480 up
+   480:{
+            items:1,
+            nav:true	
+        },
+    // breakpoint from 768 up
+    768:{
+            items:2,
+            nav:true
+        },
+	// breakpoint from 992 up
+    992:{
+            items:2,
+            nav:true
+        },
+		1200:{
+            items:2,
+            nav:true
+        },
+
+}
+});
 
 /*==  panel_expert_slider ==*/
 var cc = $('#panel_expert_slider');

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Doctor Consultation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link href="css/video.popup.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet" />
+<link href="css/theme.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<!-- top_header -->
+<section class="top_header">
+  <div class="container">
+    <div class="row top_header_inner">
+      <div class="col-md-4 col-sm-12 top_head_box">
+        <div class="top_head_left">
+          <ul>
+            <li class="li_login"><a href="admin-login.html"><span><img src="images/user_login_icon.png" alt="" /></span> Login</a></li>
+            <li class="li_signup"><a href="">Sign Up <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12 top_head_box top_head_right_main">
+        <div class="top_head_right">
+          <ul>
+            <li><a href="tel:1234567890"><span><i class="fa fa-phone" aria-hidden="true"></i></span> (123)456-7890</a></li>
+            <li><a href="mailto:info@example.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> info@example.com</a></li>
+            <li><a href=""><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Find Us</a></li>
+            <li class="li_social"> <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- nav_sec -->
+<section class="nav_sec" id="sticky-wrap">
+  <div class="container">
+    <div class="row nav_inner"> 
+      <!-- mobile -->
+      <nav class="navbar navbar-expand-lg navbar-dark mobile_nav_sec"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu</span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Doctor List</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- mobile  End-->
+      <div class="col-md-4 col-sm-4 logo_box_main">
+        <div class="logo_box"> <a href="index.html"><img src="images/logo.png" alt="" /></a> </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 nav_right_box_main">
+        <div class="nav_right_box">
+          <ul class="list_nav_right">
+            <li class="get_app"><a href="">Get Our App</a></li>
+            <!--<li><a href=""><img src="images/android_icon.png" alt="" /></a></li>
+            <li><a href=""><img src="images/appstore_icon.png" alt="" /></a></li>-->
+            <li class="li_humbargar_drop_menu">
+              <div class="dropdown li_humbargar_drop">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"> <span class="humb_icon "><img src="images/humbergar_icon.png" alt="" /></span> Menu </button>
+                <div class="dropdown-menu">
+                  <ul class="list_side_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Doctors</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- user_dashboard_sec -->
+<section class="user_dashboard_sec">
+	<div class="container-fluid custom_container_fluid">
+		<div class="row">
+			<div class="col-lg-3 col-md-12 col-12">
+				<div class="user_das_nav_area">
+					<div class="navbar_head">
+						<h4><span style="padding-right:7px;"><img src="images/menu_dash_icon.png" alt="" /></span> DASHBOARD</h4>
+					</div>
+					<ul class="user_menu_list">
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_profile.png" alt="" /></span> My Profile</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_restriction.png" alt="" /></span> My Prescptions</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_appointment.png" alt="" /></span> My Appointment</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_history.png" alt="" /></span> My History</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_family.png" alt="" /></span> My Family</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_review.png" alt="" /></span> My Review</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_wallet.png" alt="" /></span> My Payment & Wallet</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_notifications.png" alt="" /></span> My Notifications</a></li>
+						<li><a href=""><span class="li_span_icon"><img src="images/menu_icon_logout.png" alt="" /></span> Logout</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-12 col-12">
+				<div class="user_das_right_area">
+					<div class="user_dash_area">
+						<div class="row">
+							<div class="col-lg-8 col-md-12">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="u_dash_box wow fadeInUp">
+										<div class="u_dash_box_inner">
+											<div class="u_dash_icon">
+												<img src="images/u_dash_icon1.png" alt="" />
+											</div>
+											<div class="dash_box_txt">
+												<h3>Meet a <span>Doctor</span></h3>
+												<h5>Book Appointment</h5>
+											</div>
+											
+										</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="u_dash_box wow fadeInDown">
+										<div class="u_dash_box_inner">
+											<div class="u_dash_icon">
+												<img src="images/u_dash_icon2.png" alt="" />
+											</div>
+											<div class="dash_box_txt">
+												<h3>Meet a <span>Doctor</span></h3>
+												<h5>Book Appointment</h5>
+											</div>
+										</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="u_dash_box wow fadeInLeft">
+										<div class="u_dash_box_inner">
+											<div class="u_dash_icon">
+												<img src="images/u_dash_icon3.png" alt="" />
+											</div>
+											<div class="dash_box_txt">
+												<h3>Meet a <span>Doctor</span></h3>
+												<h5>Book Appointment</h5>
+											</div>
+										</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="u_dash_box wow fadeInRight">
+										<div class="u_dash_box_inner">
+											<div class="u_dash_icon">
+												<img src="images/u_dash_icon4.png" alt="" />
+											</div>
+											<div class="dash_box_txt">
+												<h3>Meet a <span>Doctor</span></h3>
+												<h5>Book Appointment</h5>
+											</div>
+										</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<div class="mediflic_subscribe">
+									<h3>
+									Get <br>
+									<span class="txt_color_red">Mediflic</span> <br>
+									<span>Plus</span> <sup>+</sup>
+									</h3>
+									<a href="" class="subs_lnk">Subscribe</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- user_ask_ques_area -->
+					<div class="user_ask_ques_area">
+						<h3>Ask a Health Question..</h3>
+						<form class="user_ask_form">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="form-group">
+										<textarea class="form-control comment_inp" placeholder="Write your query here.."></textarea>
+									</div>
+								</div>
+								<div class="col-md-4 user_btn_box">
+									<div class="form-group">
+										<button type="button" class="start_chat_btn">Start Chat</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<!-- user_ask_ques_area -->
+					<div class="user_ask_ques_area">
+						<h3>News $ Update</h3>
+						<div class="row">
+							<div class="col-lg-4 col-md-6">
+								<div class="news_box">
+									<div class="news_head_box">
+										<div class="row">
+											<div class="col-sm-6 col">
+												<h5>20.Jan.2020</h5>
+											</div>
+											<div class="col-sm-6 col">
+												<p>Oncology</p>
+											</div>
+										</div>
+									</div>
+									<div class="news_img_area">
+										<div class="c_img_area">
+											<img src="images/doc_operation.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="new_overlay">
+											<h3>Using salt to fight cancer.</h3>
+											<a href="" class="readarticle_btn">Read this Article</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="news_box">
+									<div class="news_head_box">
+										<div class="row">
+											<div class="col-sm-6 col">
+												<h5>20.Jan.2020</h5>
+											</div>
+											<div class="col-sm-6 col">
+												<p>Oncology</p>
+											</div>
+										</div>
+									</div>
+									<div class="news_img_area">
+										<div class="c_img_area">
+											<img src="images/doc_operation.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="new_overlay">
+											<h3>Using salt to fight cancer.</h3>
+											<a href="" class="readarticle_btn">Read this Article</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="news_box">
+									<div class="news_head_box">
+										<div class="row">
+											<div class="col-sm-6 col">
+												<h5>20.Jan.2020</h5>
+											</div>
+											<div class="col-sm-6 col">
+												<p>Oncology</p>
+											</div>
+										</div>
+									</div>
+									<div class="news_img_area">
+										<div class="c_img_area">
+											<img src="images/doc_operation.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="new_overlay">
+											<h3>Using salt to fight cancer.</h3>
+											<a href="" class="readarticle_btn">Read this Article</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- footer_sec -->
+<section class="footer" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 footer_box">
+        <div class="fbox_head"> <img src="images/logo.png" alt="" /> </div>
+        <ul class="list_contact_details">
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_home_icon.png" alt=""></div>
+              <p>YC CoWorking Space, 3RD Floor,<br>
+                Plot No.94, Dwarka Sector-13, Delhi - 110078.</p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_mail_icon.png" alt=""></div>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+              <p><a href="mailto:info@doctorconsultation.com">info@doctorconsultation.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="cl_box">
+              <div class="c_icon"><img src="images/footer_headfonel_icon.png" alt=""></div>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+              <p><a href="tel:03340078558">033 - 4007 8558</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 footer_box f_quick_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Quick Links</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav" id="footer_navigation">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Mission</a></li>
+            <li><a href="">Bookings & Appointments</a></li>
+            <li><a href="">Specialities</a></li>
+            <li><a href="">Doctor Listings</a></li>
+            <li><a href="">Join Us</a></li>
+            <li><a href="">Medicine Refills</a></li>
+            <li><a href="">Flight Tickets</a></li>
+            <li><a href="">Pricing Plans</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 footer_box f_departments_box">
+        <div class="fbox_head">
+          <h2 class="footer_heading">Specialities & Departments</h2>
+        </div>
+        <div class="ft_links">
+          <ul class="footer_nav">
+            <li><a href="">Cardiology</a></li>
+            <li><a href="">Oral Health</a></li>
+            <li><a href="">Diabetes</a></li>
+            <li><a href="">Orthopedics</a></li>
+            <li><a href="">Plastic Surgery</a></li>
+            <li><a href="">Osteology</a></li>
+            <li><a href="">Gastroenterology</a></li>
+            <li><a href="">Otology</a></li>
+            <li><a href="">Gynecology</a></li>
+            <li><a href="">Pediatrics</a></li>
+            <li><a href="">Hepatology</a></li>
+            <li><a href="">Psychiatry</a></li>
+            <li><a href="">Neurology</a></li>
+            <li><a href="">Pulmonology</a></li>
+            <li><a href="">Obstetrics</a></li>
+            <li><a href="">Radiology</a></li>
+            <li><a href="">Ophthalmology</a></li>
+            <li><a href="">Rhinology</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- copyright_sec -->
+<section class="copyright_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6">
+        <div class="footer_cpy_left">
+          <p>Copyright 2019, All Right Reserved. WIS.</p>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <div class="footer_cpy_right">
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Use</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="admin-login.html">Login</a></li>
+            <li class="ft_signup"><a href="">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- scrollup_sec --> 
+<a href="javascript:void(0)" id="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+<!-- jQuery Area --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/jquery.viewbox.js"></script> 
+<script src="js/video.popup.js"></script> 
+<script src="js/wow.js"></script> 
+<script src="js/datepicker.js"></script> 
+<script src="js/theme.js"></script> 
+<script>
+	$(".how_use_left img").mousemove(function(event){
+	  var mousex = event.pageX - $(this).offset().left;
+	  var mousey = event.pageY - $(this).offset().top;
+	  var imgx = (mousex - 500) / 60;
+	  var imgy = (mousey - 200) / 40;
+	  $(this).css("transform", "translate(" + imgx + "px," + imgy + "px)");
+	});
+	$(".how_use_left img").mouseout(function(){
+	  $(this).css("transform", "translate(7px,6px)");
+	});
+	</script>
+</body>
+</html>

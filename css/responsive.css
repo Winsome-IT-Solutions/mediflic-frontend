@@ -11,6 +11,19 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:991px) {
+	#sidebar.is-affixed
+	{
+		height:auto !important;
+	}
+	.left_serach_bar.sidebar__inner
+	{
+		position:relative !important;
+		transform: none !important;
+	}
+	.book_appointment_leftbar
+	{
+		margin-bottom: 20px;
+	}
 	
 }
 @media only screen and (min-width:320px) and (max-width:767px) {
@@ -372,9 +385,120 @@
 	{
 		border: 1px solid #0199cc;
 	}
+	/*==== search doctor page ===*/
+	
+	.search_comman_lr_padd {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.search_doctor_right
+	{
+		border-left:none;
+		padding-left:0;
+	}
+	.big_heading_comman
+	{
+		font-size:30px;
+	}
+	.search_feature_area {
+		padding: 40px 0 80px 0;
+	}
+	.find_simple
+	{
+		border:none;
+		border-radius:0;
+	}
+	.s_search1
+	{
+		border-right:none;
+	}
+	.find_simple .form-group
+	{
+		margin-bottom:15px;
+	}
+	.find_simple .txt_simple_search
+	{
+		border: 1px solid #222;
+	}
+	.doctor_item_img_box
+	{
+		position:relative;
+		width: 160px;
+	}
+	.doctor_item_top
+	{
+		padding-left: 0;
+		    display: block;
+	}
+	.doctor_top_content {
+		margin-top: 24px;
+	}
 
+	.doctor_item_bottom {
+    margin-top: 10px;
+    padding-left: 0;
+	}
+	.doctor_item_bottom a
+	{
+		font-size:16px;
+		padding: 7px 16px;
+	}
+	#search_doctor_slider.owl-theme .owl-nav
+	{	top:auto;
+		bottom: -60px;
+		left: 0;
+	}
+	.doc_right_comman {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.card_doc_area_left
+	{
+		border-right:none;
+	}
+	.result_card
+	{
+		padding:40px 15px;
+	}
+	.doctor_card_top
+	{
+		padding-left:0;
+		display:block;
+		
+	}
+	.doctor_card_img_box
+	{
+		position:relative;
+		width: 135px;
+	}
+	.list_show_card
+	{
+		margin: 15px 0 0 0;
+	}
+	.price-slider
+	{
+		width: 100%;
+	}
+	.frb input[type="radio"] ~ label
+	{
+		width:140px;
+	}
+	.frb input[type="radio"]:empty ~ label span.frb-title
+	{
+		font-size:15px;
+		font-weight:400;
+	}
+	.pik_date_box
+	{
+		margin-top: 15px;
+	}
+	
+	/*=== user dasboard page ==*/
+	.u_dash_box .u_dash_icon img
+	{
+		width: 90px;
+	}
 }
-
 
 @media only screen and (min-width:320px) and (max-width:479px) {
 	
@@ -464,6 +588,12 @@
 	.cl_box p
 	{
 		font-size: 14px;
+	}
+	/*=== user dasboard page ==*/
+	.u_dash_box_inner
+	{
+		padding-left: 110px;
+		min-height: 122px;
 	}
 	
 	
@@ -649,7 +779,58 @@
 	{
 		padding: 30px 15px;
 	}
+	/*==== search doctor page ===*/
 	
+	.search_comman_lr_padd {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.search_doctor_right
+	{
+		border-left:none;
+		padding-left:0;
+	}
+	.big_heading_comman
+	{
+		font-size:30px;
+	}
+	.search_doctor_right
+	{
+		border-left:none;
+		padding-left:0;
+	}
+	.doctor_item_top
+	{
+		padding-left:160px;
+	}
+	.doctor_item_top .doc_img_box
+	{
+		height: 140px;
+		width: 140px;
+	}
+	.doctor_item_top .doctor_top_content h3
+	{
+		font-size:20px;
+	}
+	.doctor_item_bottom
+	{
+		padding-left:0;
+	}
+	.doctor_item_bottom a
+	{
+		font-size:17px;
+		padding:7px 15px;
+	}
+	/*=== user dasboard page ==*/
+	.user_das_nav_area
+	{
+		margin-bottom:30px;
+		
+	}
+	.user_das_right_area {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
 	
 
 	
@@ -846,7 +1027,51 @@
 	{
 		font-size: 34px;
 	}
-	
+	/*==== search doctor page ===*/
+	.search_comman_lr_padd {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.doctor_item_bottom
+	{
+		padding-left:20px;
+	}
+	.doctor_item_bottom a
+	{
+		font-size:17px;
+		padding:7px 15px;
+	}
+	.frb input[type="radio"] ~ label
+	{
+		width:111px;
+	}
+	.frb input[type="radio"]:empty ~ label span.frb-title
+	{
+		font-size: 13px;
+		font-weight: 400;
+		margin: 5px 4px;
+	}
+	/*=== user dasboard page ==*/
+	.user_das_right_area {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
+	.u_dash_box .u_dash_icon img
+	{
+		width:90px;
+	}
+	.u_dash_box_inner
+	{
+		padding-left:100px;
+	}
+	.u_dash_box
+	{
+		padding: 10px 10px;
+	}
+	.mediflic_subscribe .subs_lnk
+	{
+		padding: 7px 19px;
+	}
 }
 
 	
